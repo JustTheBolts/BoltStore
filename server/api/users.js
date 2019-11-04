@@ -7,7 +7,7 @@ router.use((req, res, next) => {
   next()
 })
 
-router.get('/', async (req, res, next) => {
+router.get('/users-users-users', async (req, res, next) => {
   try {
     const users = await User.findAll({
       // explicitly select only the id and email fields - even though
